@@ -311,3 +311,12 @@ body { margin:0; padding:0; background-image:url(../images/b4.jpg);}
 #music:hover{
 	opacity:0.8;
 }
+@media only screen and (max-width: 600px) {
+  .your-class {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* any other adjustments */
+  }
+}
