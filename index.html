@@ -113,17 +113,16 @@
 <!--Adobe Edge Runtime End-->
 <link rel="stylesheet" type="text/css" href="css/index.css"/>
 <link rel="stylesheet" type="text/css" href="css/grumble.min.css"/>
-.image-container {
-  display: block; /* or inline-block, flex, depending on your layout */
-  margin: 0 auto; /* centers the image and removes top/bottom margin */
-  padding: 0; /* removes padding */
+@media only screen and (max-width: 600px) {
+  .your-class {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* any other adjustments */
+  }
 }
 
-img.responsive-image {
-  width: 100%; /* makes the image responsive */
-  height: auto; /* maintains the aspect ratio */
-  display: block; /* removes extra space below the image */
-}
 
 </head>
 <body>
