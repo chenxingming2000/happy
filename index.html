@@ -8,6 +8,7 @@
  <script type="text/javascript" charset="utf-8" src="completedProject_edgePreload.js"></script>
  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
  <script src="js/snow.min.js" type="text/javascript"></script> 
+	
  <script type="text/javascript">
 
     window.onload = function(){
@@ -112,6 +113,17 @@
 <!--Adobe Edge Runtime End-->
 <link rel="stylesheet" type="text/css" href="css/index.css"/>
 <link rel="stylesheet" type="text/css" href="css/grumble.min.css"/>
+.image-container {
+  display: block; /* or inline-block, flex, depending on your layout */
+  margin: 0 auto; /* centers the image and removes top/bottom margin */
+  padding: 0; /* removes padding */
+}
+
+img.responsive-image {
+  width: 100%; /* makes the image responsive */
+  height: auto; /* maintains the aspect ratio */
+  display: block; /* removes extra space below the image */
+}
 
 </head>
 <body>
